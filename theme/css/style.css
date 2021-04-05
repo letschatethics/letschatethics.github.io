@@ -46,6 +46,14 @@ a {
   transition: 0.5s;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 a.socials {
   color: #4b4c4d;
   -webkit-transition: 0.5s;
